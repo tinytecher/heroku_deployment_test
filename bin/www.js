@@ -14,7 +14,7 @@ const debug = debugLib("helper-videos-backend-deployment:server");
  * Get port from environment and store in Express.
  */
 
-const port = normalizePort(process.env.PORT || "5001");
+const port = normalizePort(process.env.PORT || "3000");
 app.set("port", port);
 
 /**
